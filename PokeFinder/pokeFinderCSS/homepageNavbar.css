@@ -1,4 +1,4 @@
-.navBar {
+.navbar {
     display: flex;
     flex-direction: row;
     height: 50px;
@@ -6,25 +6,54 @@
     justify-content: space-between;
 }
 
-.leftNavbar {
+.left-navbar {
     display: flex;
     align-items: center;
 }
 
-.midNavBar {
-    background-color: pink;
-    width: 500px;
-}
-
-.rightNavBar {
-    background-color: blue;
-    width: 100px;
-}
-
-.pokeFinderLogo {
+.poke-finder-logo {
     height: 45px;
 }
 
-.pokeFinderLogo:hover {
+.poke-finder-logo:hover {
     cursor: pointer;
+}
+
+.mid-navbar {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.search-bar {
+    height: 30px;
+    width: 400px;
+}
+
+.search-icon {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.right-navbar {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    width: 300px;
+}
+
+.about-button {
+    
+}
+
+.pokeAPI-button {
+
+}
+
+.login-button {
+
 }

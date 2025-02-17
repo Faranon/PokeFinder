@@ -9,25 +9,33 @@
         <link rel="stylesheet" href="pokeFinderCSS/homepageNavbar.css">
     </head>
     <body>
-        <!-- navBar start -->
-        <div class="navBar">
+        <!-- navbar start -->
+        <div class="navbar">
 
-            <!-- leftNavBar start -->
-            <div class="leftNavBar">
-                <a href="pokeFinderHomepage.html">
-                    <img class="pokeFinderLogo" src="icons/pokeFinderLogo.png">
-                </a>
+            <!-- left navbar start -->
+            <div class="left-navbar">
+                <img class="poke-finder-logo" src="icons/pokeFinderLogo.png" onclick="onClickPokeFinderLogo()">
             </div>
-            <!-- leftNavBar end -->
+            <!-- left navBar end -->
 
-            <!-- midNavBar start -->
-            <div class="midNavBar">div 2</div>
-            <!-- midNavBar end -->
+            <!-- mid navbar start -->
+            <div class="mid-navbar">
+                <input class="search-bar" type="text" placeholder="Search Pokemon Name">
+                <img class="search-icon" src="icons/magnifyingGlass.png" onclick="">
+            </div>
+            <!-- mid navbar end -->
 
-            <div class="rightNavBar"> div 3 </div>
+            <!-- right navbar start -->
+            <div class="right-navbar"> 
+                <button class="about-button">About</button>
+                <button class="pokeAPI-button" onclick="openPokeAPI()">Poke API</button>
+                <button class="login-button">Login</button>
+            </div>
+            <!-- right navbar end -->
         </div>
-
-        <script src="scripts/pokeFinderHomepage.js"></script>
         <!-- navBar end -->
+
+        <!-- Scripts -->
+        <script src="scripts/pokeFinderHomepage.js"></script>
     </body>
 </html>

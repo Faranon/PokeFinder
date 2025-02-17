@@ -19,3 +19,11 @@ async function fetchData() {
         console.error(error);
     }
 }
+
+function openPokeAPI() {
+    window.open('https://pokeapi.co/', '_blank'); // Opens in a new tab
+}
+
+function onClickPokeFinderLogo() {
+    window.location.href = 'pokeFinderHomepage.html'; // Redirects to homepage
+}
