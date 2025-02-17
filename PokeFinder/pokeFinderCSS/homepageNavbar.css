@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: red;
+    justify-content: space-between;
+}
+
+.leftNavbar {
+    display: flex;
+    align-items: center;
+}
+
+.midNavBar {
+    background-color: pink;
+    width: 500px;
+}
+
+.rightNavBar {
+    background-color: blue;
+    width: 100px;
+}
+
+.pokeFinderLogo {
+    height: 45px;
+}
+
+.pokeFinderLogo:hover {
+    cursor: pointer;
+}
