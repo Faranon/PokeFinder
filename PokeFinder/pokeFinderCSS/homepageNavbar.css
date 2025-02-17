@@ -37,23 +37,26 @@
 
 .search-icon:hover {
     cursor: pointer;
+    background-color: rgb(200, 0, 0);
 }
 
 .right-navbar {
     display: flex;
     align-items: center;
-    background-color: blue;
+    justify-content: space-between;
     width: 300px;
 }
 
-.about-button {
-    
+.nav-buttons {
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    height: 50px;
+    width: 60px;
+    background-color: red;
 }
 
-.pokeAPI-button {
-
-}
-
-.login-button {
-
+.nav-buttons:hover {
+    cursor: pointer;
+    background-color: rgb(200, 0, 0);
 }

@@ -13,7 +13,7 @@ async function fetchData() {
         // Display Pokémon sprite
         const pokemonSprite = document.getElementById("pokemonSprite");
         pokemonSprite.src = data.sprites.front_default;
-        pokemonSprite.style.display = "block";
+        //pokemonSprite.style.display = "block";
 
     } catch (error) {
         console.error(error);
@@ -26,4 +26,8 @@ function openPokeAPI() {
 
 function onClickPokeFinderLogo() {
     window.location.href = 'pokeFinderHomepage.html'; // Redirects to homepage
+}
+
+function onClickAboutPage() {
+    window.location.href = 'aboutPage.html'; // about page
 }

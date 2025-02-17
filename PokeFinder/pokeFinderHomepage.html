@@ -20,20 +20,22 @@
 
             <!-- mid navbar start -->
             <div class="mid-navbar">
-                <input class="search-bar" type="text" placeholder="Search Pokemon Name">
-                <img class="search-icon" src="icons/magnifyingGlass.png" onclick="">
+                <input class="search-bar" type="text" id="pokemonName" placeholder="Search Pokemon Name">
+                <img class="search-icon" src="icons/magnifyingGlass.png" onclick="fetchData()">
             </div>
             <!-- mid navbar end -->
 
             <!-- right navbar start -->
             <div class="right-navbar"> 
-                <button class="about-button">About</button>
-                <button class="pokeAPI-button" onclick="openPokeAPI()">Poke API</button>
-                <button class="login-button">Login</button>
+                <button class="nav-buttons" onclick="onClickAboutPage()">About</button>
+                <button class="nav-buttons" onclick="openPokeAPI()">Poke API</button>
+                <button class="nav-buttons">Login</button>
             </div>
             <!-- right navbar end -->
         </div>
         <!-- navBar end -->
+
+        <img src="" id="pokemonSprite">
 
         <!-- Scripts -->
         <script src="scripts/pokeFinderHomepage.js"></script>
